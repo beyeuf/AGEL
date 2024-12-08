@@ -77,7 +77,7 @@ select*
 into PortfolioProjects..ecommerce_product_clean
 from #ecommerce_product
 
-
+ -----------------------------------------------------------------------------------------------------------------------------------------
 --VALIDATION AND CLEANING of CUSTOMER TABLE
 
 --Check for nulls
@@ -109,7 +109,7 @@ select*
 into PortfolioProjects..ecommerce_customers_clean
 from #ecommerce_customers
  
-
+ -----------------------------------------------------------------------------------------------------------------------------------------
 --VALIDATION AND CLEANING of ORDER TABLE
 
 --Identify row with null values, and place in new temp table
